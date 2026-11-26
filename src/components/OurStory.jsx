@@ -123,7 +123,7 @@ function OurStory() {
                   className="bg-white pb-15 p-3 sm:pb-25 sm:p-5 mt-10 w-55 h-70 z-30  sm:top-50 sm:left-80  top-25 left-16 -rotate-15 absolute sm:w-120 sm:h-140"
                 >
                   <img
-                    src="/img3.webp"
+                    src="/img 2.webp"
                     alt=""
                     loading="lazy"
                     decoding="async"
@@ -137,7 +137,7 @@ function OurStory() {
                   className="bg-white pb-15 p-3 sm:pb-25 sm:p-5 mt-3 sm:mt-5 w-55 h-70 sm:w-120 sm:h-140"
                 >
                   <img
-                    src="/img 2.webp"
+                    src="/img3.webp"
                     alt=""
                     loading="lazy"
                     decoding="async"

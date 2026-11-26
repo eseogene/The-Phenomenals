@@ -32,7 +32,7 @@ function Footer() {
             reach us directly
           </h1>
           <div className="flex justify-center items-center gap-5">
-            <p className="font-sanss sm:text-xl border-b border-accent/40 text-[#ebe0c9] animate-pulse">0813 755 6504</p>
+            <p className="font-sanss sm:text-xl border-b border-accent/40 text-[#ebe0c9] animate-pulse">08102361625</p>
             <p >.</p>
             <p className="font-sanss sm:text-xl border-b border-accent/40 text-[#ebe0c9] animate-pulse">0813 755 6504</p>
           </div>

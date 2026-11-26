@@ -74,7 +74,7 @@ export default function App() {
                   duration: 3,
                   repeat: Infinity,
                 }}
-                className="uppercase font-sans text-xs mt-10"
+                className="uppercase font-sans text-md mt-10"
               >
                 tap to open
               </motion.p>

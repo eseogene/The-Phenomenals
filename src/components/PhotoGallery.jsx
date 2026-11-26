@@ -2,11 +2,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Autoplay,
   EffectCoverflow,
-  Mousewheel,
+  Pagination,
   Navigation,
   Scrollbar,
 } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import Wrapper from "./Wrapper";
 
 const SwiperImages = [
@@ -28,18 +30,31 @@ function PhotoGallery() {
         <h1 className="mb-7 text-[40px] font-eb text-center mt-8 text-[#c49a42] sm:mb-3 capitalize">
           Photo Gallery
         </h1>
-         <p className="font-eb text-center align-middle items-center">
+        <p className="font-eb text-center align-middle items-center">
           a few moments
         </p>
         <Swiper
-          modules={[Autoplay, EffectCoverflow, Navigation, Scrollbar]}
+          modules={[
+            Autoplay,
+            EffectCoverflow,
+            Navigation,
+            Scrollbar,
+            Pagination,
+          ]}
           parallax
           effect="coverflow"
           coverflowEffect={{ rotate: 115, stretch: 70 }}
+          pagination={{
+            clickable: false,
+            dynamicBullets: true,
+            dynamicMainBullets: 3,
+          }}
+          slidesPerView={1}
+          spaceBetween={20}
           navigation
           autoplay={{ delay: 3000 }}
           mousewheel
-          className="w-full h-[400px] sm:h-[90vh] bg-[#eee5d2] flex justify-center items-center rounded-2xl my-15 sm:my-25"
+          className="w-full h-100 sm:h-[90vh] bg-[#eee5d2] flex justify-center items-center rounded-2xl my-15 sm:my-25"
         >
           {SwiperImages.map((image, index) => (
             <SwiperSlide

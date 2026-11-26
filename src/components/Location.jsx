@@ -34,7 +34,7 @@ function Location({ background }) {
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  Wednesday, 2 december 2026
+                  Wednesday, 2 December 2026
                 </motion.span>
               </h1>
               <h1 className="py-8 border-accent/50 border-y font-heading sm:text-lg flex gap-14 sm:gap-7">
@@ -69,6 +69,23 @@ function Location({ background }) {
                   transition={{ duration: 0.5, delay: 1 }}
                 >
                   7222771254{" "}
+                </motion.span>
+              </h1>
+              <h1 className="py-8 border-accent/50 border-y font-heading sm:text-lg flex gap-14 sm:gap-7">
+                <motion.span
+                  initial={{ y: 20, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 1.2 }}
+                  className="font-eb text-accent  ml-2"
+                >
+                  password
+                </motion.span>{" "}
+                <motion.span
+                  initial={{ y: 20, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 1.4 }}
+                >
+                  722277
                 </motion.span>
               </h1>
             </div>

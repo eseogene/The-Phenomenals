@@ -53,9 +53,9 @@ function Family() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="mt-15 text-[12px] sm:text-[18px] text-center font-mon italic tracking-[0.35px] text-[#d4c5a9]  normal-case"
+          className="mt-15 text-[12px] sm:text-[18px] text-center font-sanss italic tracking-[0.35px] text-[#d4c5a9]  normal-case"
         >
-          cordially invite you to the Civil marriage of their children
+          cordially invite you to the Wedding ceremony of their children
         </motion.p>
         <div className="flex flex-col items-center mt-10">
           <motion.span

@@ -13,7 +13,7 @@ function Accept() {
   }
 
   function Whatsapp() {
-    const phone =  "2348149719242";
+    const phone =  "2348102361625";
    const message = `${name ? name : "I"} ${response === "accept" ? "joyfully accept your wedding invitation and look forward to sharing in your special day. Thank you for including me in this beautiful celebration." : "regretfully decline"}${note ? `\n\nNote: ${note}` : ""}`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");

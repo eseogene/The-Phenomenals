@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marck+Script&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DynaPuff:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marck+Script&family=Redressed&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -78,21 +78,14 @@ body {
   max-width: 68ch;
   margin-inline: auto;
   color: #f7d9bc;
-  font-family: var(--sanss);
+  font-family: "Sour Gummy", sans-serif;
   font-size: clamp(1.125rem, 1.5vw, 1.35rem);
-  font-weight: 400;
+  font-weight: 100;
   line-height: 1.8;
   letter-spacing: 0.01em;
 }
 
-.story-copy > p {
-  text-wrap: pretty;
-}
 
-.font-mon {
-  font-family: var(--mon);
-  animation: name duration timing-function delay iteration-count alternate-reverse fill-mode;
-}
 
 
 .radial-back {
