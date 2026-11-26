@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 const details = [
   { para: "Bank Name", name: "OPAY" },
-  { para: "Account Name", name: "ELIZABETH AGUOSIMA IMOEBE" },
+  { para: "Account Name", name: "ELIZABETH IMOEBE" },
   { para: "Account Number", name: "8137556504" },
 ];
 
