@@ -15,7 +15,7 @@ function Footer() {
         <section className="p-5 pt-5 pb-10 sm:mx-70">
           <div className="flex justify-center items-center">
             <div className="w-15 h-[0.5px] mr-2 bg-accent/50" />
-            <img src="ee.svg" alt="" className=" border-accent/50 size-5" />
+            <img src={`${import.meta.env.BASE_URL}ee.svg`} alt="" className=" border-accent/50 size-5" />
             <div className="w-15 h-[0.5px] ml-2 bg-accent/50" />
           </div>
 

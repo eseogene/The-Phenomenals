@@ -11,16 +11,16 @@ import "swiper/css/pagination";
 import Wrapper from "./Wrapper";
 
 const SwiperImages = [
-  "/img1 (11).webp",
-  "/img1 (3).webp",
-  "/img1 (13).webp",
-  "/img1 (4).webp",
-  "/img1 (6).webp",
-  "/img1 (7).webp",
-  "/img1 (5).webp",
-  "/img1 (8).webp",
-  "/img1 (10).webp",
-];
+  "img1 (11).webp",
+  "img1 (3).webp",
+  "img1 (13).webp",
+  "img1 (4).webp",
+  "img1 (6).webp",
+  "img1 (7).webp",
+  "img1 (5).webp",
+  "img1 (8).webp",
+  "img1 (10).webp",
+].map((image) => `${import.meta.env.BASE_URL}${image}`);
 
 function PhotoGallery() {
   return (

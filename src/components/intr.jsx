@@ -5,7 +5,7 @@ function Intr({ setOpen }) {
   return (
     <main className="relative min-h-[100dvh] w-full overflow-hidden bg-[#1b2118] text-[#ECE2D8]">
       <img
-        src="/cover.webp"
+        src={`${import.meta.env.BASE_URL}cover.webp`}
         alt="A couple embracing"
         fetchPriority="high"
         decoding="async"

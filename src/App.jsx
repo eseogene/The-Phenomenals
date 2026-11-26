@@ -52,7 +52,7 @@ export default function App() {
         <section className="fixed z-[60] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  w-full">
           <div className="flex flex-col justify-center items-center ">
             <div className="h-100 w-0.5 bg-accent/0 bg-linear-to-b from-accent/50  to-accent/0 mb-10" />
-            <img src="ee.svg" alt="" className="mb-9 border-b border-accent/50 pb-5 size-30" />
+            <img src={`${import.meta.env.BASE_URL}ee.svg`} alt="" className="mb-9 border-b border-accent/50 pb-5 size-30" />
             <section className="flex flex-col justify-center items-center w-full">
               <h1 className="font-eb text-5xl tracking-wide text-[#eee5d2] sm:text-7xl flex flex-col justify-center items-center">
                 Elizabeth

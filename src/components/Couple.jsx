@@ -25,7 +25,7 @@ function Couple() {
             className="sm:w-140 w-70 h-70 sm:h-150"
           >
             <img
-              src="/img1 (1).webp"
+              src={`${import.meta.env.BASE_URL}img1 (1).webp`}
               alt=""
               loading="lazy"
               decoding="async"
@@ -39,7 +39,7 @@ function Couple() {
             className="sm:w-140 w-70 h-70  sm:h-150 border border-accent/50 rounded"
           >
             <img
-              src="/img1 (11).webp"
+              src={`${import.meta.env.BASE_URL}img1 (11).webp`}
               alt=""
               loading="lazy"
               decoding="async"

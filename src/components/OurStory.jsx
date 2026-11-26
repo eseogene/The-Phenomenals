@@ -123,7 +123,7 @@ function OurStory() {
                   className="bg-white pb-15 p-3 sm:pb-25 sm:p-5 mt-10 w-55 h-70 z-30  sm:top-50 sm:left-80  top-25 left-16 -rotate-15 absolute sm:w-120 sm:h-140"
                 >
                   <img
-                    src="/img 2.webp"
+                    src={`${import.meta.env.BASE_URL}img 2.webp`}
                     alt=""
                     loading="lazy"
                     decoding="async"
@@ -137,7 +137,7 @@ function OurStory() {
                   className="bg-white pb-15 p-3 sm:pb-25 sm:p-5 mt-3 sm:mt-5 w-55 h-70 sm:w-120 sm:h-140"
                 >
                   <img
-                    src="/img3.webp"
+                    src={`${import.meta.env.BASE_URL}img3.webp`}
                     alt=""
                     loading="lazy"
                     decoding="async"
@@ -164,7 +164,7 @@ function OurStory() {
               className="sm:w-140 w-70 h-90 sm:h-170"
             >
               <img
-                src="/img 7.webp"
+                src={`${import.meta.env.BASE_URL}img 7.webp`}
                 alt=""
                 loading="lazy"
                 decoding="async"
@@ -178,7 +178,7 @@ function OurStory() {
               className="sm:w-130 w-70 h-70  sm:h-140 border border-accent/50 rounded"
             >
               <img
-                src="/img 6.webp"
+                src={`${import.meta.env.BASE_URL}img 6.webp`}
                 alt=""
                 loading="lazy"
                 decoding="async"

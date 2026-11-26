@@ -3,9 +3,9 @@ import Wrapper from "./Wrapper";
 import { motion } from "motion/react";
 
 const details = [
-  { para: "Bank Name", name: "FIRST BANK" },
-  { para: "Account Name", name: "ESEOGHENE ERUVWAHWE" },
-  { para: "Account Number", name: "3085039594" },
+  { para: "Bank Name", name: "OPAY" },
+  { para: "Account Name", name: "ELIZABETH AGUOSIMA IMOEBE" },
+  { para: "Account Number", name: "8137556504" },
 ];
 
 function Support({ ref }) {
