@@ -8,7 +8,6 @@ import {
 } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 import Wrapper from "./Wrapper";
 
 const SwiperImages = [
@@ -49,6 +48,7 @@ function PhotoGallery() {
             dynamicBullets: true,
             dynamicMainBullets: 3,
           }}
+          
           slidesPerView={1}
           spaceBetween={20}
           navigation
