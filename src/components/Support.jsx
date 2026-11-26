@@ -3,7 +3,7 @@ import Wrapper from "./Wrapper";
 import { motion } from "motion/react";
 
 const details = [
-  { para: "Bank Name", name: "OPAY" },
+  { para: "Bank Name", name: "PALMPAY" },
   { para: "Account Name", name: "ELIZABETH IMOEBE" },
   { para: "Account Number", name: "8137556504" },
 ];
